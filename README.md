@@ -8,11 +8,12 @@ This web app allows you to add animals to an Animal Shelter site. So as an admin
 ## Autehntication
 In case that you want to recreate the admin or user authentication of the API, you can copy and paste the code below at the "item-router.js" file. This is just for recreation purposes which demonstrates how to authenticate a user on the API and how to limit the API to certain users. Although, in this project, the authentication on the front-end was not completed.
 
->`router.post('/item', auth, ItemCtrl.createItem)
-router.put('/item/:id', auth, ItemCtrl.updateItem)
-router.delete('/item/:id', auth,  ItemCtrl.deleteAnimal)
-router.get('/item/:id', auth,  ItemCtrl.getItemById)
-router.get('/items',ItemCtrl.getItems)`
+>
+`router.post('/item', auth, ItemCtrl.createItem)`<br>
+`router.put('/item/:id', auth, ItemCtrl.updateItem)`<br>
+`router.delete('/item/:id', auth,  ItemCtrl.deleteAnimal)`<br>
+`router.get('/item/:id', auth,  ItemCtrl.getItemById)`<br>
+`router.get('/items',ItemCtrl.getItems)`
 
 ## Demo video of the app
 <https://recordit.co/K2x1vq8pDl>
